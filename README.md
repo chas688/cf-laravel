@@ -15,9 +15,9 @@ in them, thus the added .txt empty files in there to allow this to happen.
 the http/ directory contains all the laravel source code, but the trick with the buildpack
 is to add the composer.json and composer.lock file to the root of the project. This has been done, but the 
 composer.json has been modified to reflect the htdocs/ directory. Otherwise, any composer 
-post-install artisan commands will not run...
+post-install artisan commands will not run.
 
-##Install and Run
+## Install and Run
  
 1. install the CF cli tools:
 http://docs.cloudfoundry.org/cf-cli/
