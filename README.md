@@ -1,4 +1,4 @@
-# Cloud Foundry + Laravel
+# Cloud Foundry + Laravel 5.5
 I recently had to set up a Cloud Foundry based Laravel app and found a surprising lack of information out there on it. Most of what is out there is
 outdated PHP <7.0. 
 
@@ -17,7 +17,7 @@ is to add the composer.json and composer.lock file to the root of the project. T
 composer.json has been modified to reflect the htdocs/ directory. Otherwise, any composer 
 post-install artisan commands will not run...
 
-###Install and Run
+##Install and Run
  
 1. install the CF cli tools:
 http://docs.cloudfoundry.org/cf-cli/
